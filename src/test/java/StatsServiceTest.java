@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class StatsServiceTest {
 
     @Test
-    public void shouldSumExact() {
+    public void shouldSumCalculateExact() {
         StatsService service = new StatsService();
 
         int[] stats = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -19,7 +19,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void shouldAvgSumExact() {
+    public void shouldAvgSumCalculateExact() {
         StatsService service = new StatsService();
 
         int[] stats = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};

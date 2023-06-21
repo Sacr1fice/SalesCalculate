@@ -38,7 +38,7 @@ public class StatsService {
         return minMonth + 1;
     }
 
-    public int getMonthBelowAvgSales(int[] stats){
+    public int getMonthBelowAvgSales(int[] stats) {
         int avgSum = getAvgSum(stats);
         int monthBelowAvgSales = 0;
         for (int i = 0; i < stats.length; i++) {
@@ -49,7 +49,7 @@ public class StatsService {
         return monthBelowAvgSales;
     }
 
-    public int getMonthAboveAvgSales(int[] stats){
+    public int getMonthAboveAvgSales(int[] stats) {
         int avgSum = getAvgSum(stats);
         int monthAboveAvgSales = 0;
         for (int i = 0; i < stats.length; i++) {
